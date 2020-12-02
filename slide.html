@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>W3.CSS</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
+ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel ="stylesheet" href="sidebar.css">
+
+
+</head>
+<body>
+  <h1 class="animate__animated animate__bounce">Welcome To SpringHertz</h1>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void()" class="closebtn" onclick="closeNav()">
+  x</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Stocks</a>
+  <a href="#">Contact</a>
+  <a href = "#">Phones</a>
+</div>
+
+<div id="main">
+  
+  <div class="nav">
+    <a class= "active" href ="#">Home</a>
+    <a href= "#">About</a>
+    <a href= "#">Contact</a>
+    <a href= "#">Products</a>
+  </div>
+  <button type= "button" onclick="openNav()"><i class="fa fa-fw fa-bars"></i>
+  </button>  
+</div>
+  <div class="parent">
+    <div class="image">
+      <img src="workstation2/my_macbook.jpg" width="150" height="150">
+    </div>
+      <div class="image">
+        <img src="workstation2/my_laptop.jpg"width="150" height="150">
+      </div>
+        <div class="image">
+          <img src="workstation2/iphone12.png"width="150" height="150">
+        </div>
+          <div class="image">
+            <img src="workstation2/infinixnote7.jpg"width="150" height="150">
+          </div>
+  </div><br>
+  <footer>
+<div id="footer">
+<div class="icon2">
+    <a href="#"><i class="fa fa-fw fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-fw fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-fw fa-instagram"></i></a>
+   <a href="#"><i class="fa fa-fw fa-snapchat-ghost"></i></a>
+   </div>
+   <div class ="icon"> 
+    <p>SpringHertz International<br><br>
+    25, Eke Market, Afikpo, Nigeria.<br><br>
+    E-mail: springherts@business.ng
+  </p>
+  </div>
+  </footer>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.1.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>   
+</html>
+
